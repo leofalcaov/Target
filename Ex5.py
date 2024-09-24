@@ -1,0 +1,16 @@
+# Escreva um programa que inverta os caracteres de um string. 
+
+# IMPORTANTE: 
+# a) Essa string pode ser informada através de qualquer entrada
+#    de sua preferência ou pode ser previamente definida no código; 
+# b) Evite usar funções prontas, como, por exemplo, reverse;
+
+def inverter_string(s):
+    string_invertida = ""
+    for char in s:
+        string_invertida = char + string_invertida
+    return string_invertida
+
+# Exemplo de entrada
+entrada = input("Informe uma string: ")
+print("String invertida:", inverter_string(entrada))
